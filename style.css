@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    outline: none;
+}
+
+html, body{
+    color: #fff;
+    background-image: url(background2.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+/* ================ navigation =================== */
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 8px 0px;
+}
+
+#nav #logo{
+    margin: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#nav #item{
+   margin: 16px 10px;
+}
+
+#nav #item a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#nav #item a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+/* ================== Profil ===================== */
+
+.profil{
+    border: 1px solid #fff;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    width: 270px;
+    margin:  0 auto;
+    text-align: center;
+}
+  
+.profil span{
+    font-size: 25px;
+}
+  
+  .profil span .fa-laptop-code{
+    font-size: 25px;
+}
+
+#btn1{
+    color: #fff;
+    padding: 2px;
+}
+
+#btn1:hover{
+    border-bottom: 2px solid #fff;
+}
+
+/* ======================= Login ======================== */
+
+#form{
+    padding: 15px 15px;
+}
+
+#form input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#form input[type="password"]{
+    margin-bottom: 30px;
+}
+
+#form label{
+    text-align: left;
+}
+
+.profil2{
+    border: 1px solid #fff;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    width: 270px;
+    margin: 0 auto;
+}
+
+#form #log-btn{
+    border: 1px solid #fff;
+    padding: 5px 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#form #log-btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+/* ================ Universitet ================= */
+
+#image{
+    margin: 40px 150px;
+}
+
+/* ================= live =================== */
+
+.profil3{
+    border: 1px solid #fff;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profil3 a{
+    color: #fff;
+}
+
+.profil3 a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+/* ==== Mobile View ==== */
+
+@media (max-width: 400px){
+    #nav{
+        display: block;
+        text-align: center;
+    }
+    #nav #logo{
+        display: block;
+    }
+    #nav #item a{
+        display: block;
+    }
+    #nav #item a:hover{
+        color: #ccc;
+        border: none;
+    }
+}
+
+@media (max-width: 500px){
+    #nav{
+        display: block;
+        text-align: center;
+    }
+    #nav #logo{
+        display: block;
+    }
+    #nav #item a{
+        display: block;
+    }
+    #nav #item a:hover{
+        color: #ccc;
+        border: none;
+    }
+}
+
+@media (max-width: 600px){
+    #nav{
+        display: block;
+        text-align: center;
+    }
+    #nav #logo{
+        display: block;
+    }
+    #nav #item a{
+        display: block;
+    }
+    #nav #item a:hover{
+        color: #ccc;
+        border: none;
+    }
+}
+
+@media (max-width: 700px){
+    #nav{
+        display: block;
+        text-align: center;
+    }
+    #nav #logo{
+        display: block;
+    }
+    #nav #item a{
+        display: block;
+    }
+    #nav #item a:hover{
+        color: #ccc;
+        border: none;
+    }
+}
